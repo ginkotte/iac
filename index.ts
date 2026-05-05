@@ -18,6 +18,5 @@ const ecr = new aws.ecr.Repository("teste-inicial-iac-ecr", {
 export const bucketName = bucket.id;
 export const bucketRegion = bucket.region;
 export const bucketArn = bucket.arn;
-
 export const ecrName = ecr.name;
 export const ecrRepositoryUrl = ecr.repositoryUrl;
